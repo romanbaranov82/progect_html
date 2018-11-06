@@ -1,0 +1,463 @@
+body{
+    min-width: 320px;
+    max-width: 1280px;
+}
+header {
+    min-width: 320px;
+    max-width: 1280px;
+    padding: 50px 50px 50px 50px;
+    background-color: #445161;
+    display: flex;
+}
+
+
+/*загаловок*/
+.head_txt {
+    width: 100%;
+    padding-left: 3.9%;
+    padding-top: 15.5%;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 60px;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
+/*первый список*/
+.first_list {
+    width: 100%;
+    padding-left: 12%;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+    list-style-type: none;
+    list-style-image: url(../img/check%20icon.png);
+}
+
+.image_header {
+    display: block;
+    background-color: white;
+    margin-left: 200px;
+
+}
+
+main {
+    min-width: 320px;
+    max-width: 1280px;
+}
+
+.about {
+    min-width: 320px;
+    max-width: 1280px;
+    padding: 50px 50px 50px 50px;
+    display: flex;
+}
+
+/*заголовок*/
+.about_header {
+    width: 100%;
+    padding-left: 3.9%;
+    padding-top: 15.5%;
+    font-family: Arial;
+    color: #445161;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: left;
+}
+
+/*параграф в about*/
+.about_par1 {
+    margin-left: 3.9%;
+    margin-bottom: 10px;
+}
+
+.about_par2 {
+    margin-left: 3.9%
+}
+
+video {
+    display: block;
+    background-color: #445161;
+}
+
+/*блок dignity*/
+.dignity {
+    min-width: 320px;
+    max-width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #f5f5f5;
+}
+
+.dignity-title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: Arial;
+    color: #445161;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.dignity-left-wrapper {
+    width: 50%;
+}
+
+.dignity-right-wrapper {
+    width: 50%;
+}
+
+details {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+details summary:before {
+    background: #445161;
+    content: "+";
+    color: #fff;
+    position: absolute;
+    top: 5px;
+    left: -2px;
+    font-size: 12px;
+    font-weight: bold;
+    margin: -5px 10px 0 0;
+    padding: 0;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+}
+
+summary {
+    outline: none;
+    padding-left: 25px;
+}
+
+details[open] summary:before {
+    content: "-";
+}
+
+/*блок скриншот*/
+.screenshots {
+    min-width: 320px;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 10px 10px 20px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.screenshots-title {
+    width: 100%;
+    margin: 50px 0 35px 0;
+    text-align: center;
+    height: 22px;
+    font-family: Arial;
+    color: #445161;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.screenshots-preview {
+    width: 574px;
+    margin: 0 0 30px 0;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.screenshots-preview img {
+    background-color: #445161;
+    width: 200px;
+    height: 150px;
+    margin: 0 10px 0 0;
+}
+
+
+
+/*отзывы*/
+.reviews {
+    min-width: 320px;
+    max-width: 1280px;
+    padding: 50px;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.reviews_header {
+    width: 100%;
+    text-align: center;
+    height: 22px;
+    font-family: Arial;
+    color: #445161;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.txt {
+    width: 483px;
+    height: 121px;
+    border: 1px solid #989898;
+    border-radius: 5px;
+    background-color: #989898;
+    position: relative;
+}
+
+.txt:before {
+    content: "";
+    display: block;
+    border: 15px solid transparent;
+    border-right: 15px solid #989898;
+    position: absolute;
+    top: 30px;
+    left: -30px;
+}
+
+/*блок buy*/
+.buy {
+    min-width: 320px;
+    max-width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.buy_header {
+    width: 100%;
+    padding-left: 572px;
+    padding-top: 50px;
+    font-family: Arial;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+
+}
+
+.buy_price {
+    background-color: #445161;
+    margin: 20px;
+
+}
+
+.view-txt {
+    display: block;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.price-txt {
+    border: 1px solid #445162;
+    display: block;
+    background-color: white;
+    width: 300px;
+    height: 71px;
+    color: #445162;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+ol {
+    list-style-position: inside;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+/* колонны в блоке buy*/
+.buy_price:nth-child(2) {
+    width: 302px;
+    align-self: flex-end;
+}
+
+.buy_price:nth-child(3) {
+    width: 302px;
+    align-self: flex-end;
+}
+
+.buy_price:last-child {
+    width: 302px;
+    align-self: flex-end;
+}
+
+/*текст в кнопе*/
+.btn_buy {
+    margin: auto;
+}
+
+.social_link {
+    border: 1px solid #445161;
+    display: flex;
+    border-radius: 5px;
+    width: 260px;
+    min-height: 40px;
+    text-decoration: none;
+    text-align: center;
+    color: #445161;
+    background-color: white;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+.social_link:hover {
+    background-color: orange;
+}
+
+.social_link:active {
+    background-color: bisque;
+    color: black;
+}
+
+/*форма ввода данных и контакты*/
+.main_footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: 320px;
+    max-width: 1280px;
+    padding: 50px;
+    background-color: #445161;
+}
+
+.main_footer_title {
+    display: block;
+    width: 100%;
+    margin: 0 0 30px 0;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+.main_footer_form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 500px;
+    margin: 0 46px 0 0;
+}
+
+.main_footer_form input[type="text"],
+.main_footer_form input[type="email"],
+.main_footer_form textarea {
+    width: 100%;
+    height: 40px;
+    margin: 0 0 20px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: #ffffff;
+    outline: none;
+    text-transform: capitalize;
+}
+
+.main_footer_form input[type="text"]:hover,
+.main_footer_form input[type="email"]:hover,
+.main_footer_form textarea:hover {
+    background-color: gray;
+    color: white;
+    border-color: white;
+}
+
+.main_footer_form input[type="text"]:hover::placeholder,
+.main_footer_form input[type="email"]:hover::placeholder,
+.main_footer_form textarea:hover::placeholder {
+    color: white;
+}
+
+.main_footer_form textarea {
+    width: 500px;
+    height: 170px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: #ffffff;
+    outline: none;
+}
+
+input[placeholder],
+textarea[placeholder] {
+    text-overflow: ellipsis;
+    font-family: Arial;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.main_footer_form input[type="submit"] {
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 140px;
+    height: 40px;
+    text-transform: uppercase;
+    font-family: Arial;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    outline: none;
+}
+
+.main_footer_form input[type="submit"]:hover {
+    background-color: gray;
+    color: white;
+}
+
+.main_footer_form input[type="submit"]:active {
+    background-color: #ffffff;
+    color: #445162;
+}
+
+.main_footer_contacts {
+    width: 240px;
+    height: 300px;
+    background-color: #445161;
+}
+
+.contacts_txt {
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    
+}
+
+
+/*подвал*/
+.down {
+    display: block;
+    text-align: center;
+    font-family: Arial;
+    color: #445162;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    line-height: 24px;
+}
